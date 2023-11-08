@@ -25,15 +25,16 @@
 3. 2번 문제 API (method = get): http://localhost:8080/api/products/brand
 4. 3번 문제 API (method = get): http://localhost:8080/api/products/category/{categoryName}
 5. 4번 문제 API (method = post): 추가, 업데이트, 삭제
-   6. 전체 requestBody 예제: <code> {
+6.전체 requestBody 예제: <code> {
       "category": "상의",
       "brand": "J",
       "price": "100"}</code>
    
-   7. 카테고리 추가 API (method = post): http://localhost:8080/api/product/save 
+7. 카테고리 추가 API (method = post): http://localhost:8080/api/product/save 
      
-   8. 카테고리 가격 업데이트 API (method = post): http://localhost:8080/api/product/update
-   9. 카테고리 삭제 API (method = post) : http://localhost:8080/api/product/delete
+8. 카테고리 가격 업데이트 API (method = post): http://localhost:8080/api/product/update
+
+9. 카테고리 삭제 API (method = post) : http://localhost:8080/api/product/delete
 
 ### `TEST CODE 작성`
 
